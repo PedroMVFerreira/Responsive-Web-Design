@@ -1,0 +1,105 @@
+body {
+    background-color: #08647C;
+    font-family: sans-serif;
+    padding: 60px;
+}
+
+#survey-form {
+    width: 80%;
+    background-color: #B8DCEC;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 1000px;
+    max-height: 10000;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#description {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
+hr {
+    height: 1px;
+    background-color: white;
+    border-color: white;
+}
+
+.proper-text {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 9px;
+}
+
+.rectangle {
+    width: 250px;
+    margin-left: 9px;
+}
+
+.inline {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.primary {
+    vertical-align: center;
+}
+
+.space {
+    margin-bottom: 10px;
+}
+
+.alignSquare {
+    margin-left: 5px;
+}
+
+.alignRectangle {
+    margin-left: 8px;
+}
+
+#submitButton{ text-align: center }
+#submit{
+    width: 75px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Footer */
+a {
+    color: #08647C;
+}
+
+a:visited {
+    color: #08647C;
+}
+
+a:hover {
+    color: rgb(255,255,255);
+}
+
+a:active {
+    color: rgb(255,255,255);
+}
+
+.link {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 0;
+}

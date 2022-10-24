@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+        <title>SURVEY FORM by PEDRO FERREIRA</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <form id="survey-form">
+        <body>
+            <header>
+                <h1 id="title">Survey Form</h1>
+                <p id="description">Thank you for filling out this form</p>
+                <hr>
+            </header>
+            <main>
+                    <!--Name-->
+                    <label for="name" id="name-label">
+                        <p class="proper-text">Name</p>
+                        <input required class="rectangle" type="text" id="name" name="name" placeholder="Enter your full name"/>
+                    </label>
+                    <!--End of name-->
+                    <!--Email-->
+                    <label for="email" id="email-label">
+                        <p class="proper-text">Email</p>
+                        <input required class="rectangle" type="email" id="email" name="email" placeholder="Enter your email"/>
+                    </label>
+                    <!--End of email-->
+                    <!--Age-->
+                    <label for="number" id="number-label">
+                        <p class="proper-text">Age</p>
+                        <input required class="rectangle" type="number" id="number" name="age" placeholder="Enter your age" min="0" max="150"/>
+                    </label>
+                    <!--End of Age-->
+                    <!--Working status-->
+                    <p class="proper-text space">Working status</p>
+                    <div class="alignSquare">
+                        <label for="student">
+                            <input id="student" type="checkbox" name="workingCondition" value="student"/>Student
+                        </label>
+                        <label for="working">
+                            <input id="working" type="checkbox" name="workingCondition" value="working"/>Working
+                        </label>
+                        <label for="unemployed">
+                            <input id="unemployed" type="checkbox" name="workingCondition" value="unemployed"/>Unemployed
+                        </label>
+                    </div>
+                    <!--End of working status-->
+                <!--Education-->
+                <p class="proper-text space">Level of education</p>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="none">
+                                <input checked id="none" type="radio" name="education" value="none"/>None
+                            </label>
+                        </td>
+                        <td>
+                            <label for="primary">
+                                <input id="primary" type="radio" name="education" value="primary"/>Primary School
+                            </label>
+                        </td>
+                        <td>
+                            <label for="basic">
+                                <input id="basic" type="radio" name="education" value="basic"/>Basic School
+                            </label>
+                        </td>
+                        <td>
+                            <label for="secondary">
+                                <input id="secondary" type="radio" name="education" value="secondary"/>Secondary School
+                            </label>
+                        </td>
+                        <td>
+                            <label for="deggre">
+                                <input id="degree" type="radio" name="education" value="degree"/>University Degree
+                            </label>
+                        </td>
+                        <td>
+                            <label for="masters">
+                                <input id="masters" type="radio" name="education" value="masters"/>University Masters
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+                <!--End of education-->
+                <!--Marital Status-->
+                <div>
+                    <label for="maritalStatus"><p class="proper-text space">Select your marital status</p></label>
+                    <select name="maritalStatus" class="alignRectangle" id="dropdown">
+                        <option value="single"><p>Single</p></option>
+                        <option value="married"><p>Married</p></option>
+                        <option value="divorced"><p>Divorced</p></option>
+                        <option value="widow"><p>Widow</p></option>
+                    </select>
+                </div>
+                <!--End of marital status-->
+                <!--Further comments input -->
+                <label for="comments"><p>Additional comments</p>
+                    <textarea id="comments" name="comments" rows="5" cols="37" maxlength="10000">
+You can enter additional comments within a maximum of 10000 characters 
+                    </textarea>
+                </label>                  
+                <!--End of further comments input-->
+                <!--Submit button-->
+                <div id="submitButton">
+                    <input type="submit" id="submit">
+                </div>
+            </main>
+        </body>
+        <hr>
+        <footer>
+            <p class="link"><a href="https://github.com/FepPp" target="_blank">Pedro Vale Ferreira</a></p><!--Replace for github-->
+        </footer>
+    </form><!--End of form block-->
+</html>
