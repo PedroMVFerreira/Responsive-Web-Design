@@ -1,0 +1,58 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#page{
+    position: relative;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    min-height: 100px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+.logo{
+    width: 30vw;
+}
+
+.logo > img{
+    width: 50%;
+    height: 50%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#company-name{
+    margin-left: 50px;
+    display: flex;
+    justify-content: baseline;
+    text-align: justify;
+}
+
+nav{
+    font-weight: 400;
+}
+
+nav > ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

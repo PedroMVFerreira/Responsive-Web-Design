@@ -1,0 +1,188 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+    scroll-behavior: smooth;
+    }
+}
+
+body{
+    background-color: #D3D3D3;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    width: max(100px, 18vw);
+    background-color: #0a0a23;
+    aspect-ratio: 35 / 4;
+    padding: 0.4rem;
+}
+
+#title {
+    color: #f1be32; 
+    padding-left: 15px;
+}
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#main {
+    padding-top: 90px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+
+#img-caption {
+    margin-top: 10px;
+    text-align: center;
+    color: #1b1b32;
+}
+
+h2, p {
+    font-family: Verdana, Tahoma;
+    margin: 20px 0px 0px 20px;
+}
+
+section {
+    border-bottom: 4px solid #dfdfe2;
+}
+
+.ident {
+    margin-left: 30px;
+}
+
+.bands {
+    color: #1b1b32;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.bigText {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    color: rgba(108,130,91,0.4);
+}
+
+#hist, #members, #disc {
+    font-weight: 800;
+    font-size: 25px;
+    color: rgba(108,130,91,255);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.spacing {
+    margin-bottom: 10px;
+}
+
+.text {
+    font-family: Verdana, Tahoma;
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2a2a40;
+    height: 35px;
+}
+
+.footerText
+{
+    color: #dfdfe2;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.dl_spacing {
+    margin-bottom: 20px;
+}
+
+header > p:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+.bands:hover {
+    background-color:rgba(108,130,91,0.4);
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+.text:hover {
+    background-color: #86868b;
+    color: #1b1b32;
+    cursor: pointer;  
+}
+
+.footerText:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+.parentContainer {
+    display: flex; 
+    justify-content: left;
+}
+
+
+.childContainer:last-child {
+    margin-left: 100px;
+}
